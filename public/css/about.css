@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+
+.navbar{
+    font-family: "Suez One", serif;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #795458;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar p{
+    font-size: 20px;
+    margin-left: 78px;
+    color: #795458;
+}
+.content p{
+    font-family: "Suez One", serif;
+    color: #795458;
+    font-size: 50px;
+    text-align: center;
+}
+.teamOpt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 160px;
+}
+.member{
+    width: 456px;
+    height: 512px;
+    background-color: antiquewhite;
+}
+.teamOpt .opt p{
+    font-size: 30px;
+}
