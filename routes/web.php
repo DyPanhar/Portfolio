@@ -9,3 +9,8 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+
+Route::get('/menghour', function () {
+    return view('menghour');
+});
