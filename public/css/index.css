@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #453f78 !important;
+    font-size: 1.4rem;
+
+
+}
+
+body{
+    background-color: #D9D9D9;
+    transition: background-image 0.3s ease-in-out;
+    background-image: url('/images/bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.mask {
+    color: transparent !important;
+    -webkit-text-stroke: 1px #C08B5C;
+    text-stroke: 1px #C08B5C;
+    visibility: hidden; /* Initially hide the elements */
+    transition: visibility 0s, opacity 1s ease-in-out; /* Add transition for visibility and opacity */
+    opacity: 0; /* Initially set opacity to 0 */
+}
+

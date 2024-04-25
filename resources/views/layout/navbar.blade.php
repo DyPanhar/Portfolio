@@ -24,8 +24,7 @@
 
 
 </head>
-
-<body class="vh-100 overflow-hidden">
+<body class="vh-100 ">
     <!-- navbar -->
     <nav class="navbar  navbar-expand-md fixed-top">
         <div class="container">

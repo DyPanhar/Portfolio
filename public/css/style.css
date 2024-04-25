@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Strait&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&family=Strait&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -7,47 +11,131 @@
     font-weight: 400;
     font-style: normal;
     color: #453f78 !important;
+}
+body {
     font-size: 1.4rem;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
 }
 
-.bg-shape {
-    position: absolute;
-    top: 45px;
-    left: 75px;
-    width: 750px;
-    height: 1000px;
-    background-color:#453f78;
-    z-index: 0;
-    transform: rotate(35deg);
+.des {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#img {
-    margin-top: 15px;
-    margin-left: 30px;
-    background-color: hsl(0, 0%, 75%);
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 1;
+img {
     border: 1px solid white;
+    background-color: #c1c1c1;
 }
 
-.logo-span{
+.bg-img {
+    width: 500px;
+    height: 750px;
     position: absolute;
-    top: 1;
-    left: -100;
-    margin-top: 10px;
-    background: none;
+    top: 10px;
+    left: 900px;
+    background-color: purple;
+    transform: rotate(30deg);
+    z-index: -1;
 }
 
-#logo{
-  color: #D9D9D9 !important;
-  background: none !important;
-  font-size: 2rem;
+.res {
+    margin: 0;
+    color: white !important;
+    font-size: 8rem;  font-family: 'Stardos Stencil', system-ui;
 }
 
-a{
-    text-decoration: none;
-    background: none !important;
+.res1 {
+    color: transparent !important;
+    -webkit-text-stroke: 1px #c08b5c;
+    text-stroke: 1px #c08b5c;
+}
+
+.exp {
+    width: 750px;
+    height: 350px;
+    background-color: #D9D9D9;
+    padding: 20px 17px;
+}
+
+.w-text{
+    color: white !important;
+}
+
+.item{
+    margin-top: 15px;
+    font-family: "Strait", sans-serif;
+
+}
+
+.item-btn{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #453f78;
+}
+
+.name{
+    color: transparent !important;
+    -webkit-text-stroke: 1px #c08b5c;
+    text-stroke: 1px #c08b5c;
+    font-size: 13rem;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center h1{
+    font-size: 7.5rem;
+}
+
+.text-center .des {
+    font-size: 2rem;
+}
+
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media (max-width: 1400px){
+    .res{
+       font-size: 5rem;
+    }
+
+    .b-name .name{
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .b-sec{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    .right-sec .res{
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1780px){
+    .b-name .name{
+        text-align: center;
+        font-size: 8.5rem;
+    }
+}
+
+@media (max-width : 750px){
+    .b-name .name{
+        text-align: center;
+        font-size: 4rem;
+    }
 }
