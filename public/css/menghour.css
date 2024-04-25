@@ -40,6 +40,10 @@ ul{
 ul li{
     list-style-type: none;
 }
+ul a{
+    text-decoration: none;
+    color: #795458;
+}
 
 /* profile */
 .profile .left-contain{
@@ -52,6 +56,8 @@ ul li{
 .profile .left-contain p{
     font-family: "Staatliches", sans-serif;
     font-size: 35px;
+    animation: textIn 500ms ease-in;
+    
 }
 .profile {
     margin-top: 100px;
@@ -67,6 +73,7 @@ ul li{
     height: 620px;
     border: 1px solid white;
     overflow: hidden;
+    animation: imageIn 500ms ease-in;
 }
 .profile .right-contain img{
    position: relative;
@@ -81,6 +88,7 @@ ul li{
     bottom:600px;
     left: 1020px;
     transform: rotate(43deg);
+    animation: imageIn 500ms ease-in;
 }
 
 
@@ -212,7 +220,7 @@ ul li{
     display: flex;
     flex-direction: row;
     position: relative;
-    gap: 50px;
+    gap: 200px;
     animation: scroll 20s linear infinite;
 }
 .backgroundName h1{
@@ -231,6 +239,22 @@ ul li{
     }
     100%{
         transform: translate(-100%, 0);
+    }
+}
+@keyframes imageIn {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes textIn {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
     }
 }
 }

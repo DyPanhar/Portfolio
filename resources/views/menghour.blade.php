@@ -14,7 +14,9 @@
         </div>
         <div class="navMenu">
             <ul>
-                <li>About</li>
+                <a href="/about">
+                    <li>About</li>
+                </a>
                 <li>Resume</li>
                 <li>Work</li>
             </ul>
@@ -22,7 +24,7 @@
     </nav>
     <div class="profile">
         <div class="left-contain">
-            <h1>Hello,<br>I’m HOUR</h1>
+            <h1>Hello,<br>I'm HOUR</h1>
             <p>My Name Chhin Menghour. I am a student<br> In Cadt. I am a hard-working and driven<br> individual who isn't afraid to face a<br> challenge.</p>
         </div>
         <div class="right-contain">

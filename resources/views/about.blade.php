@@ -27,9 +27,11 @@
             <p>OUR TEAM</p>
             <div class="teamOpt">
                 <div class="opt">
+                    <a href="/menghour">
                     <div class="member hour">
                         <img src="image/hour.png" alt="">
                     </div>
+                    </a>
                     <p>CHHIN MENGHOUR</p>
                 </div>
                 <div class="opt">
