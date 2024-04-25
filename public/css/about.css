@@ -76,6 +76,7 @@ body{
     right: 20px;
     bottom: 20px;
     box-shadow: 24px 24px 15px rgba(0,0,0, 0.25);
+
 }
 
 /* drop down menu */
@@ -138,5 +139,27 @@ body{
     font-family: "Stardos Stencil", system-ui;
     font-weight: 400;
     font-size: 100px;
+}
+/* .hour{
+    animation: imageInRight 500ms ease-in;
+}
+.panhar{
+    animation: imageInLeft 500ms ease-in;
+} */
+@keyframes imageInLeft {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes imageInRight {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 }
