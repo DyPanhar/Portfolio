@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/menghour.css">
     <link rel="stylesheet" href="/css/menghour_phone.css">
+    <link rel="stylesheet" href="/css/menghour_tablet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>About</title>
 </head>
@@ -37,7 +38,7 @@
         </div>
     </div>
     <div class="b">
-    <div class="backgroundProfile"></div>
+        <div class="backgroundProfile"></div>
     </div>
     <div class="experience">
         <div class="education">
@@ -72,13 +73,8 @@
                 <p>English</p>
             </div>
         </div>
-        <div class="backgroundName">
-            <span>
-            <h1>CHHIN&nbsp;MENGHOUR</h1>
-            <h1>CHHIN&nbsp;MENGHOUR</h1>
-            <h1>CHHIN&nbsp;MENGHOUR</h1>
-            </span>
-        </div>
+        
+        
     </div>
 </body>
 </html>

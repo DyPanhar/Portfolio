@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Strait&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Stardos+Stencil:wght@400;700&family=Strait&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 601px) and (max-width: 991px){
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #D9D9D9;
+    padding-top: 40px;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: #795458;
+    overflow-x: hidden;
+}
+nav .logo h1{
+    font-family: "Suez One", serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    font-family: "Suez One", serif;
+    font-size: 20px;
+    gap: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    color: #795458;
+}
+.b{
+    width: 100%;
+    
+}
+
+/* profile */
+.profile .left-contain{
+    padding-top: 30px;
+}
+.profile .left-contain h1{
+    font-family: "Suez One", serif;
+    font-size: 60px;
+}
+.profile .left-contain p{
+    font-family: "Staatliches", sans-serif;
+    font-size: 25px;
+    animation: textIn 500ms ease-in;
+    
+}
+.profile {
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #795458;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+.b{
+   overflow-x: hidden;
+}
+.profile .right-contain{
+    width: 360px;
+    height: 390px;
+    border: 1px solid white;
+    overflow: hidden;
+    animation: imageIn 500ms ease-in;
+}
+.profile .right-contain img{
+   position: relative;
+   width: 360px;
+}
+.backgroundProfile{
+    width: 360px;
+    height: 420px;
+    background-color: #795458;
+    position: relative;
+    z-index: -1;
+    bottom: 400px;
+    left: 500px;
+    transform: rotate(43deg);
+    animation: imageIn 500ms ease-in;
+}
+.experience{
+    background-color: #795458;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    bottom: 380px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: #D5D5D5;
+    height: 1300px;
+    overflow: hidden;
+}
+.experience .education h1{
+    font-family: "Suez One", serif;
+    font-size: 40px;
+}
+.experience .education p b{
+    font-family: "Suez One", serif;
+    font-size: 30px;
+}
+.experience .education p{
+    font-family: "Strait", sans-serif;
+    font-size: 25px;
+}
+.experience .exp{
+    width: 600px;
+    background-color: #D9D9D9;
+    position: relative;
+    right: 20px;
+    z-index: -1;
+    padding-left: 20px;
+    color: #795458;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.experience .exp h1{
+    font-family: "Suez One", serif;
+    font-size: 40px;
+}
+.experience .exp p b{
+    font-family: "Suez One", serif;
+    font-size: 30px;
+}
+.experience .exp p{
+    font-family: "Strait", sans-serif;
+    font-size: 25px;
+}
+.softskill{
+    display: flex;
+    width: 800px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.skill{
+    font-family: "Strait", sans-serif;
+    font-size: 35px;
+    background-color: #795458;
+    color: #D5D5D5;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.language{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    bottom: 500px;
+}
+.language h1{
+    font-family: "Suez One", serif;
+    font-size: 60px;
+    padding-left: 50px;
+}
+.languages{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Suez One", serif;
+    font-size: 30px;
+    gap: 90px;
+}
+
+.resumebackground{
+    position: relative;
+    z-index: -2;
+    /* background-color: aqua; */
+    width: 747px;
+    bottom: 570px;
+    left: 350px;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: bold;
+}
+.resumebackground h1{
+    font-size: 100px;
+}
+.one{
+    color: #D5D5D5;
+}
+.two{
+    position: relative;
+    bottom: 50px; 
+    -webkit-text-stroke: 3px #C08B5C;
+    color: #795458;
+}
+.three{
+    position: relative;
+    bottom: 100px;
+    -webkit-text-stroke: 2px #C08B5C;
+    color: #795458;
+}
+.four{
+    position: relative;
+    bottom: 150px;
+    -webkit-text-stroke: 1px #C08B5C;
+    color: #795458;
+}
+.backgroundName{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 500px;
+    z-index: 2;
+}
+.backgroundName span{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 200px;
+    animation: scroll 20s linear infinite;
+}
+.backgroundName h1{
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: bold;
+    font-size: 200px;
+    color: #795458;
+    -webkit-text-stroke: 2px #C08B5C;
+}
+@keyframes scroll {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(-50%, 0);
+    }
+    100%{
+        transform: translate(-100%, 0);
+    }
+}
+@keyframes imageIn {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes textIn {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+}
