@@ -28,16 +28,16 @@
             </ul>
         </div>
     </nav>
-    <div class="profile">
-        <div class="left-contain">
-            <h1>Hello,<br>I'm HOUR</h1>
-            <p>My Name Chhin Menghour. I am a student<br> In Cadt. I am a hard-working and driven<br> individual who isn't afraid to face a<br> challenge.</p>
+    <div class="profile1">
+        <div class="profile">
+            <div class="left-contain">
+                <h1>Hello,<br>I'm HOUR</h1>
+                <p>My Name Chhin Menghour. I am a student<br> In Cadt. I am a hard-working and driven<br> individual who isn't afraid to face a<br> challenge.</p>
+            </div>
+            <div class="right-contain">
+                <img src="image/hour.png" alt="" class="img-responsive">
+            </div>
         </div>
-        <div class="right-contain">
-            <img src="image/hour.png" alt="" class="img-responsive">
-        </div>
-    </div>
-    <div class="b">
         <div class="backgroundProfile"></div>
     </div>
     <div class="experience">

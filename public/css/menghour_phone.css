@@ -56,6 +56,9 @@
         animation: textIn 500ms ease-in;
         
     }
+    .profile1{
+        overflow-x: hidden ;
+    } 
     .profile {
         margin-top: 10px;
         padding-left: 20px;
@@ -64,7 +67,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .profile .right-contain{
         width: 95%;

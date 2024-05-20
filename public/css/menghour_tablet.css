@@ -64,6 +64,9 @@ ul a{
     animation: textIn 500ms ease-in;
     
 }
+.profile1{
+    overflow-x: hidden ;
+} 
 .profile {
     margin-top: 50px;
     padding-left: 40px;
@@ -72,7 +75,7 @@ ul a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .b{
    overflow-x: hidden;
@@ -95,7 +98,7 @@ ul a{
     position: relative;
     z-index: -1;
     bottom: 400px;
-    left: 500px;
+    left: 70%;
     transform: rotate(43deg);
     animation: imageIn 500ms ease-in;
 }
